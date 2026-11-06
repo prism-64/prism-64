@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B16"/>
+      <stop offset="1" stop-color="#11102A"/>
+    </linearGradient>
+    <linearGradient id="prism" x1="48" y1="40" x2="132" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset=".55" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="word" x1="170" y1="70" x2="500" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset=".55" stop-color="#A5F3FC"/>
+      <stop offset="1" stop-color="#DDD6FE"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="760" height="180" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="758" height="178" rx="27" stroke="#94A3B8" stroke-opacity=".16"/>
+  <circle cx="90" cy="90" r="58" fill="#67E8F9" fill-opacity=".12" filter="url(#glow)"/>
+  <path d="M90 34 138 61v58L90 146 42 119V61L90 34Z" fill="#0B1224" stroke="url(#prism)" stroke-width="3"/>
+  <path d="M90 34v57m0 0 48 28M90 91 42 119M90 91v55" stroke="#E0F2FE" stroke-opacity=".45" stroke-width="1.8"/>
+  <circle cx="90" cy="91" r="6" fill="#E0F2FE"/>
+  <circle cx="90" cy="91" r="15" stroke="#67E8F9" stroke-opacity=".55" stroke-width="1.5"/>
+  <text x="170" y="96" fill="url(#word)" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2.5">Prism64</text>
+  <text x="174" y="126" fill="#8B96B3" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" letter-spacing="3.2">IMAGE ↔ BASE64 STUDIO</text>
+  <rect x="600" y="66" width="112" height="48" rx="24" fill="#34D399" fill-opacity=".08" stroke="#34D399" stroke-opacity=".28"/>
+  <circle cx="622" cy="90" r="4" fill="#34D399"/>
+  <text x="636" y="94" fill="#6EE7B7" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" letter-spacing="1.2">LOCAL</text>
+</svg>
